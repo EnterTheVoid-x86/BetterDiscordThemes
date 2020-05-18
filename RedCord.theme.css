@@ -1,0 +1,55 @@
+/* //META {"name": "RedCord", "description": "A red based Discord theme for all of your needs! Based off of ClearVision_Sapphirev5.", "author": "EnterTheVoid", "version": "1.0"} *//**/
+/* "RedCord" by @EnterTheVoid */
+/* Based on ClearVision_Sapphirev5 by @Zerthox */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Github: https://git.io/v6BHO
+Discord: https://git.io/vMnlu
+Wiki: https://git.io/vXTqM
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--accent: 0, 105, 255; /* DEFAULT: 22, 188, 249 */
+    --background-blur: 2px;
+    --background-brightness: 100%;
+    
+    
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://www.itl.cat/pngfile/big/7-77950_tap-on-image-for-more-iphone-wallpapers-exito.jpg) !important; /* IMPORTANT: Link must be HTTPS! */    
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
